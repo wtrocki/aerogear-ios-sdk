@@ -20,7 +20,11 @@
 		018FBE76201257F300E763A5 /* mobile-services.json in Resources */ = {isa = PBXBuildFile; fileRef = 018FBE75201257F300E763A5 /* mobile-services.json */; };
 		018FBE77201257F300E763A5 /* mobile-services.json in Resources */ = {isa = PBXBuildFile; fileRef = 018FBE75201257F300E763A5 /* mobile-services.json */; };
 		01928B8A201F202D0053EEB0 /* ConfigParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6372266C9F61265244A81632 /* ConfigParserTests.swift */; };
+<<<<<<< Updated upstream
+		1ECD7E1F207BAFF8008DD3C1 /* MetricsIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECD7E1E207BAFF8008DD3C1 /* MetricsIntegrationTests.swift */; };
+=======
 		01AA3C67207CC3F00096D2EE /* AeroGearSdkIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA3C66207CC3F00096D2EE /* AeroGearSdkIntegrationTests.swift */; };
+>>>>>>> Stashed changes
 		4436E282BDD390473AD840EE /* Pods_AeroGearSdkExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0126BB257CFC9A2A188E6B84 /* Pods_AeroGearSdkExampleTests.framework */; };
 		500FDA5E2058324C001E66B0 /* JwkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500FDA5D2058324C001E66B0 /* JwkManagerTests.swift */; };
 		500FDA6020583F48001E66B0 /* MockJwk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500FDA5F20583F48001E66B0 /* MockJwk.swift */; };
@@ -89,6 +93,7 @@
 		01AA3C66207CC3F00096D2EE /* AeroGearSdkIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeroGearSdkIntegrationTests.swift; sourceTree = "<group>"; };
 		01AA3C68207CC3F00096D2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E4CCBAD4A8932216C3DF790 /* Pods-AeroGearSdkExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AeroGearSdkExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AeroGearSdkExample/Pods-AeroGearSdkExample.release.xcconfig"; sourceTree = "<group>"; };
+		1ECD7E1E207BAFF8008DD3C1 /* MetricsIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsIntegrationTests.swift; sourceTree = "<group>"; };
 		500FDA5D2058324C001E66B0 /* JwkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JwkManagerTests.swift; sourceTree = "<group>"; };
 		500FDA5F20583F48001E66B0 /* MockJwk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockJwk.swift; sourceTree = "<group>"; };
 		50F2A03F204EC7380071778E /* KeycloakConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeycloakConfigTests.swift; sourceTree = "<group>"; };
@@ -211,6 +216,7 @@
 		018FBE6920123AEE00E763A5 /* AeroGearSdkExampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				1ECD7E1D207BAFE6008DD3C1 /* integration */,
 				B3AC1A87204825DE00BEB12B /* mocks */,
 				B3AC1A81204815E000BEB12B /* auth */,
 				01590FE12059880C0099677E /* push */,
@@ -221,6 +227,14 @@
 			path = AeroGearSdkExampleTests;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
+		1ECD7E1D207BAFE6008DD3C1 /* integration */ = {
+			isa = PBXGroup;
+			children = (
+				1ECD7E1E207BAFF8008DD3C1 /* MetricsIntegrationTests.swift */,
+			);
+			path = integration;
+=======
 		01AA3C65207CC3F00096D2EE /* AeroGearSdkIntegrationTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +242,7 @@
 				01AA3C68207CC3F00096D2EE /* Info.plist */,
 			);
 			path = AeroGearSdkIntegrationTests;
+>>>>>>> Stashed changes
 			sourceTree = "<group>";
 		};
 		500FDA5C20583221001E66B0 /* jwk */ = {
@@ -434,9 +449,6 @@
 		018FBE4A20123AEE00E763A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				KnownAssetTags = (
-					New,
-				);
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = AeroGear;
@@ -671,6 +683,7 @@
 				B3AC1A8B2049951900BEB12B /* MobileServiceTest.swift in Sources */,
 				B3AC1A98204ECE7900BEB12B /* OIDCCredentialsTest.swift in Sources */,
 				500FDA5E2058324C001E66B0 /* JwkManagerTests.swift in Sources */,
+				1ECD7E1F207BAFF8008DD3C1 /* MetricsIntegrationTests.swift in Sources */,
 				017F3708201F4014001A9009 /* ServiceConfigTests.swift in Sources */,
 				B34F3B83204F44DD005970E1 /* Configurations.swift in Sources */,
 				B3AC1A8D2049E11900BEB12B /* UsersTests.swift in Sources */,
@@ -907,7 +920,6 @@
 		01AA3C6C207CC3F00096D2EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
@@ -928,7 +940,6 @@
 		01AA3C6D207CC3F00096D2EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;

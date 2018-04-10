@@ -26,9 +26,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      codeCoverageEnabled = "YES"
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -37,6 +36,16 @@
                BlueprintIdentifier = "018FBE6520123AEE00E763A5"
                BuildableName = "AeroGearSdkExampleTests.xctest"
                BlueprintName = "AeroGearSdkExampleTests"
+               ReferencedContainer = "container:AeroGearSdkExample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01AA3C63207CC3F00096D2EE"
+               BuildableName = "AeroGearSdkIntegrationTests.xctest"
+               BlueprintName = "AeroGearSdkIntegrationTests"
                ReferencedContainer = "container:AeroGearSdkExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -57,7 +66,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
