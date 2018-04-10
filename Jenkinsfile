@@ -65,10 +65,9 @@ if ( prLabels.contains("test/integration") ) {
                             pod install
                             xcodebuild \
                             -workspace AeroGearSdkExample.xcworkspace \
-                            -scheme AeroGearSdkExampleTests \
+                            -scheme AeroGearSdkIntegrationTests \
                             -sdk iphonesimulator \
                             -destination 'platform=iOS Simulator,name=iPhone 7' \
-                            '-only-testing:AeroGearSdkExampleTests/MetricsIntegrationTests' \
                             test \
                             CODE_SIGNING_REQUIRED=NO
                             """
