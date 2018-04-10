@@ -1,11 +1,3 @@
-//
-//  MockOIDCAuthenticator.swift
-//  AeroGearSdkExampleTests
-//
-//  Created by Massimiliano Ziccardi on 12/03/2018.
-//  Copyright © 2018 AeroGear. All rights reserved.
-//
-
 @testable import AGSAuth
 @testable import AGSCore
 import AppAuth
